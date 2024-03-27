@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ul{
+    list-style: none;
+}
+.nav-links ul{
+display: flex;
+gap: 32px;
+}
+header h2 span{
+    color: chocolate;
+    font-size: 24px;
+}
+a {
+text-decoration: none;
+color: black;
+}
+.navbar-link{
+    color: chocolate;
+    gap: 40px;
+    display: flex;
+}
+.homepage{
+    height: 90vh;
+    background-image: url(https://media.istockphoto.com/id/1214416414/photo/barbecued-salmon-fried-potatoes-and-vegetables-on-wooden-background.webp?b=1&s=170667a&w=0&k=20&c=MM6pU7DfEs8la5rADlnCqAPiWs0FIwCP9ExAF_A-vWM=);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    padding-left: 24px;
+}
+.homepage h2{
+    font-size: 48px;
+}
+.homepage p{
+    width: 20%;
+    font-size: 16px;
+}
+.home-buttons .order-1{
+background-color: chocolate;
+padding: 6px 12px;
+font-size: 1rem;
+border-radius: 6px;
+margin-top: 38px;
+cursor: pointer;
+font-weight: 500;
+transition: 0.2s ease;
+color: white;
+}
+.home-buttons .order-1:hover{
+background: white;
+color:#ff7f00;
+}
+.home-buttons .order-2{
+border-color: black;
+color:black;
+padding: 6px 12px;
+font-size: 1rem;
+border: 2px solid black;
+cursor: pointer;
+font-weight: 500;
+transition: 0.2s ease;
+text-align: center;
+text-decoration: none;
+border-radius: 2px;
+display: inline-block;
+}
+.home-buttons .order-2:hover{
+    background-color: white;
+}
+h3{
+    font-size: 38px;
+}
+.about-button .order-3{
+    background-color: #ff7f00;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 38px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    color: white;
+    right: 12px;
+}
+p{
+    font-size: 20px;
+    color: black;
+    width: 350px;
+}
+main>section{
+    display: flex;
+    margin: 8%;
+    gap: 5%;
+}
+main>section>.about{
+    padding-top: 5%;
+}
+main>section .about>button{
+background-color: orange;
+color: white;
+font-weight: bold;
+padding: 8px 12px;
+border-style: none;
+}
+main>section .about button:hover{
+    background-color: white;
+}
+#our-sevices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.ourservice{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    background-color: gainsboro;
+    padding: 2rem 1.25rem;
+    text-align: center;
+    width: 240px;
+    color: white;
+    align-items: center;
+}
+.card:hover{
+    background-color: #ff7f00;
+}
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card-menu{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.card-menu img{
+    width: 100px;
+}
+.card-description{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    margin-bottom: 20px;
+}
+.card-description h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-description p{
+    font-size: 16px;
+}
+button{
+    background-color: #ff7f00;
+    color: white;
+    font-weight: bold;
+    padding: 8 12px;
+    border-style: none;
+}
+button:hover{
+    background-color: maroon;
+}
+.menu{
+    justify-content: space-between;
+}
